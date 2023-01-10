@@ -14,64 +14,86 @@
 				<div class="inner">
 					<a href="images/profile2.jpg" class="image avatar"><img src="images/profile2.jpg" alt="" /></a>
 					<h1><strong>Joseph Kim</strong>,<br />
-					Data Analyst with a passion<br />for scripting, webscraping, </br> and automation.
+					Data Analyst with an interest<br /> in building webscraping, </br> and automation scripts.
 				</div>
 			</header>
 
 		<!-- Main -->
 			<div id="main">
 					<section id="two">
-						<h1><strong>Data Analyst Portfolio</strong></h1>
+						<h1 class="title">Data Analyst Portfolio</h1>
 						<hr>
 						<h2>Tableau Dashboards</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/Executive_Toys.png" class="image fit thumb"><img src="images/Executive_Toys.png" alt="" /></a>
-								<h3>Toy Sales in Mexico</h3>
-								<!-- <h4>Toy Sales in Mexico</h4> -->
-								<p>This is a project that utilizes a sample dataset with multiple tables detailing retail-based stores that focus on selling toys in Mexico.  </p>
+								<a href="images/job_analytics.JPG" class="image fit thumb"><img src="images/job_analytics.JPG" alt="" /></a>
 							</br>
-								<p>The data is split by its locations, cities, and stores with their many products being filtered by categories. A monthly trend analysis showcases the overall positive and negative trajectories of sales and profits.</p> 
-								<!-- <p>Utilized a predetermined set of data from Maven Analytics (like Kaggle) to report metrics on sales, profit, inventory based on locations, dates, and categories. </p> -->
 							</br>
-								<a href="https://github.com/TheCaptainFalcon/toy-sales-analytics" target="_blank">Github Repo/Docs</a>
-								<p></p>
-								<a href="https://public.tableau.com/app/profile/joseph708/viz/Draftp1/ExecutiveToys" target="_blank">Interactive Tableau Dashboard</a>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/p2_investor_dashboard.png" class="image fit thumb"><img src="images/p2_investor_dashboard.png" alt="" /></a>
-								<h3>IDO Launchpad</h3>
-								<p>This is a project aimed towards analyzing the many characteristics that make up IDOs within launchpads to determine whether or not they are profitable due to their highly speculative nature.</p> 
+								<h3>Job Board Analytics</h3>
+								<p>This project analyzes job board data contained within Google search results based on job count by date, data analytic tech stacks, salaries, and correlations between the latter two. </p>
 							</br>
-
-								<p>Characteristics revolve on how a project is considered to be successful, their current TGE ROI, their ATH ROI, funds raised per IDO, total funds raised, their marketcap, trading volume, etc.</p>
-								<!-- <p>Identified the success rate and ROI for the top 5 IDO launchpads. Determined metrics based around launchpads, blockchains, and categories.</p> -->
+							<p> Python is used to create an automated data pipeline of the SerpAPI JSON data to a MySQL database, which is then filtered using a combination of a CTE SQL query and Pandas, before being exported for Tableau dashboarding.</p>
 							</br>
-							<a href="https://github.com/TheCaptainFalcon/ido-launchpad" target="_blank">Github Repo/Docs</a>
+							<a href="https://github.com/TheCaptainFalcon/j_serp_extractor" target="_blank">Github Repo/Docs</a>
 							<p></p>
-							<a href="https://public.tableau.com/app/profile/joseph708/viz/DraftP2/InvestorDashboard" target="_blank">Interactive Tableau Dashboard </a></p></p>
+							<a href="https://public.tableau.com/app/profile/joseph708/viz/JobBoardAnalyticsDashboard/Dashboard" target="_blank">Interactive Tableau Dashboard</a>
 							</article>
+						</br>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/p3_investor_dashboard.png" class="image fit thumb"><img src="images/p3_investor_dashboard.png" alt="" /></a>
 								<h3>DeFi Lending Protocol</h3>
 								<p>This project analyzes the comparison in yield potential when lending assets between different lending protocols and asset types within the Solana blockchain.</p>
 							</br>
 							<p> A data scraping script is used to automate the gathering of the yield potential data points every 15 minutes and is then filtered by a daily and weekly average basis.</p>
-								<!-- <p>The yield potential is filtered by a daily and weekly average, which is measured by a data scraping script that activates every 15 minutes, and is then averaged by the date filters.</p> -->
-								<!-- <p>Built a webscraping script to automate the extraction of data and to push it into a localhost SQL database. This would then report the profitability of each lending protocol by volatile and stablecoin assets.</p> -->
 							</br>
 							<a href="https://github.com/TheCaptainFalcon/defi-lending" target="_blank">Github Repo/Docs</a>
 							<p></p>
 							<a href="https://public.tableau.com/app/profile/joseph708/viz/P3Draft/InvestorDashboard" target="_blank">Interactive Tableau Dashboard</a>
 							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/p2_investor_dashboard.png" class="image fit thumb"><img src="images/p2_investor_dashboard.png" alt="" /></a>
+								<h3>IDO Launchpad</h3>
+								<p>This is a project aimed towards analyzing the many characteristics that make up IDOs within launchpads to determine whether or not they are profitable due to their highly speculative nature.</p> 
+							</br>
+								<p>Characteristics revolve on how a project is considered to be successful, their current TGE ROI, their ATH ROI, funds raised per IDO, total funds raised, their marketcap, trading volume, etc.</p>
+							</br>
+							<a href="https://github.com/TheCaptainFalcon/ido-launchpad" target="_blank">Github Repo/Docs</a>
+							<p></p>
+							<a href="https://public.tableau.com/app/profile/joseph708/viz/DraftP2/InvestorDashboard" target="_blank">Interactive Tableau Dashboard </a></p></p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/Executive_Toys.png" class="image fit thumb"><img src="images/Executive_Toys.png" alt="" /></a>
+								<h3>Toy Sales in Mexico</h3>
+								<p>This is a project that utilizes a sample dataset with multiple tables detailing retail-based stores that focus on selling toys in Mexico.  </p>
+							</br>
+								<p>The data is split by its locations, cities, and stores with their many products being filtered by categories. A monthly trend analysis showcases the overall positive and negative trajectories of sales and profits.</p> 
+							</br>
+								<a href="https://github.com/TheCaptainFalcon/toy-sales-analytics" target="_blank">Github Repo/Docs</a>
+								<p></p>
+								<a href="https://public.tableau.com/app/profile/joseph708/viz/Draftp1/ExecutiveToys" target="_blank">Interactive Tableau Dashboard</a>
+							</article>
+							
 						</div>
-						<!-- <ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul> -->
 						<hr>
 						<h2>SQL Case Studies</h2>
 
 						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/8wksql_img_2.png" class="image fit thumb"><img src="images/8wksql_img_2.png" alt="" /></a>
+								<a href="images/ERD-CS2.JPG" class="image fit thumb"><img src="images/ERD-CS2.JPG" alt="" /></a>
+								<ul>The topics covered in this case study:
+									<li>Common Table Expressions</li>
+									<li>Group By Aggregates</li>
+									<li>Table Joins</li>
+									<li>String Transformations</li>
+									<li>Dealing with null values</li>
+									<li>Regular Expressions</li>
+								</ul>
+								<a href="https://github.com/TheCaptainFalcon/8wksql-cs2" target="_blank">Github Repo/Docs - Q/A + Code</a>
+								<p></p>
+								<a href="https://8weeksqlchallenge.com/case-study-2/" target="_blank">Original Data Source</a>
+							</article>
+						</br>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/8wksql_img_1.png" class="image fit thumb"><img src="images/8wksql_img_1.png" alt="" /></a>
 								<a href="images/ERD-CS1.JPG" class="image fit thumb"><img src="images/ERD-CS1.JPG" alt="" /></a>
@@ -87,22 +109,6 @@
 								<a href="https://8weeksqlchallenge.com/case-study-1/" target="_blank">Original Data Source</a>
 							</article>
 							<br/>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/8wksql_img_2.png" class="image fit thumb"><img src="images/8wksql_img_2.png" alt="" /></a>
-								<a href="images/ERD-CS2.JPG" class="image fit thumb"><img src="images/ERD-CS2.JPG" alt="" /></a>
-	
-								<ul>The topics covered in this case study:
-									<li>Common Table Expressions</li>
-									<li>Group By Aggregates</li>
-									<li>Table Joins</li>
-									<li>String Transformations</li>
-									<li>Dealing with null values</li>
-									<li>Regular Expressions</li>
-								</ul>
-								<a href="https://github.com/TheCaptainFalcon/8wksql-cs2" target="_blank">Github Repo/Docs - Q/A + Code</a>
-								<p></p>
-								<a href="https://8weeksqlchallenge.com/case-study-2/" target="_blank">Original Data Source</a>
-							</article>
 					</section>
 			</div>
 

@@ -2562,12 +2562,12 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			font-size: 1.25em;
 			margin: 0 0 0.5em 0;
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 1.0em;
 			line-height: 1.5em;
 			margin: 0;
 		}
@@ -3219,3 +3219,17 @@ input, select, textarea {
 			}
 
 	}
+
+/* post changes */
+
+#main, body {
+	background-color: #1f1815;
+}
+
+h2, h3 {
+	color: whitesmoke
+}
+
+h1.title {
+	color: whitesmoke
+}
